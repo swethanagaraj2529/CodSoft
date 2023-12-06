@@ -1,0 +1,190 @@
+/* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Layout styles */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+header {
+  background-color: #c2a59d;
+  color: #fff;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+header button {
+  background-color: #fff;
+  color: #0077cc;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+section {
+  padding: 4rem 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+section ul {
+  margin-left: 2rem;
+}
+
+section li {
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+button[type='submit'] {
+  background-color: #0c3a5b;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+.image-section-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-section {
+  margin: 10px;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+}
+nav li {
+  margin: 0 10px;
+}
+nav ul {
+  display: flex;
+  justify-content:space-evenly;
+  list-style-type:circle;
+  margin: 0;
+  padding: 0; 
+}
+button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: #ccc;
+}
+header {
+  margin-bottom: 20px;
+}
+header::after {
+  content: "";
+  display: block;
+  height: 20px;
+}
+details {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+}
