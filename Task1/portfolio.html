@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Swetha</title>
+    <link rel="shorcut icon" href="logo.webp">
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#performance">Performance</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero">
+      <h1>My portfolio</h1>
+      <p>I am a web developer with experience in HTML, CSS, JavaScript ,React js and Mysql.</p>
+      <a href="#contact" class="blinking-button">Hire me</a>
+    </section>
+    <section id="about">
+      <h2>About me</h2>
+      <img src="profile.jpg" alt="Profile picture">
+      <p>Hi, my name is John Doe.I have a knack for problem-solving, and I'm really excited for this internship. I was the type of person who loved learning something new every day. I also have excellent designing and poster-making skills, and I'm skilled in video editing. I recently completed a web development project and a full stack development project for a bike information app that will help me hone my skills for employment in the future</p>
+      <a href="#project" class="button-lrn">Learn more</a>
+    </section>
+    <section id="project">
+      <h2>Project</h2>
+      <div class="grid">
+        <div class="item">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Project 1</h3>
+          <p> A travel blog app is a app where an individual can share thoughts about, experiences with and tips on travel through this website</p>
+        </div>
+        <div class="item">
+          <img src="project2.jpg" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>Bike details app is the free app to find the registration details such as vehicle details, owner name and address, insurance and much more..</p>
+        </div>
+        <div class="item">
+          <img src="project3.jpg" alt="Project 3">
+          <h3>Project 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </section>
+    <section id="performance">
+      <h2>Performance and Skill Board</h2>
+      <table>
+        <tr>
+          <td>HTML</td>
+          <td>Expert</td>
+          <td class="performance-table increase">90%</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Advanced</td>
+          <td class="performance-table decrease">80%</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Intermediate</td>
+          <td class="performance-table increase">70%</td>
+        </tr>
+      </table>
+      <section>
+        <div class="container1" id="skills">
+          <h1 class="heading1">Technical Skills</h1>
+          <div class="Technical-bars">
+            <div class="bar"><i style="color:#c95d2e" class="bx bxl-html5"></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+            </div>
+            <div class="bar"><i style="color:#147bbc" class="bx bxl-css3"></i>
+            <div classname="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+            <div class="bar"><i style="color:#b0bc1e" calss="bx bxl-javascript"></i>
+            <div class="info">
+              <span>JavaScript</span>
+            </div>
+            <div class="progress-line Javascript">
+              <span></span>
+            </div>
+          </div>
+          </div>
+          </div>
+      </section>
+    </section>
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>Here is my resume:</p>
+      <a href="pi.pdf" class="button-hire">Resume</a>
+    </section>
+    <section id="contact">
+      <h2>Contact me</h2>
+        <form onsubmit="alert('Thank you for your message!'); return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </body>
+</html>
+<footer>
+  <p>&copy; <span id="currentYear"></span> Swetha</p>
+</footer>
+
+<script>
+  const currentYear = new Date().getFullYear();
+  document.getElementById("currentYear").textContent = currentYear;
+</script>
+<footer>
+  <p>&copy; <span id="currentYear"></span> Swetha</p>
+</footer>
+<style>
+  footer
+   {
+    background-color: rgb(8, 13, 35);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+</style>
+</html>
